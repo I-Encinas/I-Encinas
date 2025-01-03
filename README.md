@@ -87,6 +87,7 @@ El objetivo principal de este proyecto es resolver un puzzle deslizante de maner
 ---
 
 ## Instalación
+<!--
 
 1. Clona este repositorio:
    ```bash
