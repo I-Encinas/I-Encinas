@@ -87,12 +87,46 @@ El objetivo principal de este proyecto es resolver un puzzle deslizante de maner
 ---
 
 ## Instalación
-<!--
 
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tuusuario/tu-repositorio.git
 
+2. Abre el proyecto en tu entorno de desarrollo favorito.
+3. Asegúrate de tener configurado Kotlin en tu entorno.
+
+## Ejecución
+
+1. Ejecuta el archivo `Main.kt`.
+2. Sigue las instrucciones en la consola para observar el proceso de solución paso a paso.
+3. El programa terminará cuando el puzzle esté resuelto.
+
+---
+
+## Estructura del Código
+
+- **`main`**: Punto de entrada del programa. Contiene el bucle principal para ejecutar los movimientos.
+- **Funciones clave**:
+  - `esResoluble`: Determina si el estado inicial del puzzle es resoluble.
+  - `generarEstadoAleatorio`: Genera un tablero inicial válido.
+  - `heuristica_g` y `heuristca_h`: Evalúan la calidad de un movimiento.
+  - `hallar_adyacetes`: Encuentra las posiciones adyacentes al espacio vacío.
+  - `movimientos`: Realiza un movimiento basado en la evaluación heurística.
+
+---
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas mejorar el código, por favor:
+1. Haz un fork del repositorio.
+2. Crea una nueva rama con tus cambios:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+3. Realiza un pull request describiendo tus cambios.
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT.
+<!--
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
