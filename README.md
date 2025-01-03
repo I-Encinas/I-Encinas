@@ -45,7 +45,6 @@ El objetivo principal de este proyecto es resolver un puzzle deslizante de maner
    ```bash
    git clone https://github.com/tuusuario/tu-repositorio.git
 
-<!--
 **I-Encinas/I-Encinas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 # Puzzle Solver en Kotlin
 
